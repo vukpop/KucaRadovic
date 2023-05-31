@@ -4,18 +4,32 @@
     text-align: center;
 }
 
-.navbar ul li a{
-    padding: 2px 8px;
+.navbar{
+    width: 100vw!important;
 }
+
+.navbar ul li a{
+    padding: 0px 3px;
+} 
 
 .navbar li a{
-    font-size: 10px;
-    padding: 2px;
+    font-size: 8px;
+    padding: 2px 0px;
 }
 
+.box{
+    height: 70vh;
+}
 /* Headings */
 .headings{
     font-size: 2.5rem;
+}
+
+
+.main{
+    right: 0;
+    scale: 0.8;
+    width: 100vw;
 }
 
 /* About */
@@ -25,8 +39,9 @@
 }
 
 #pic img{
-    height: 550px;
-    width: 415px;
+    height: 20vh;
+    width: 70vw;
+    /* width: px; */
     padding: 20px;
 }
 
